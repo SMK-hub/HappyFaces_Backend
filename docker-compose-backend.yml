@@ -11,6 +11,5 @@ services:
     ports:
       - 8079:8079
     environment:
-      SPRING_APPLICATION_JSON: '{
-        "spring.data.mongodb.uri" : "mongodb://mongodb:27017/HappyFaces",
-      }'
+      SPRING_APPLICATION_JSON: '{"spring.data.mongodb.uri": "mongodb://mongodb:27017/HappyFaces"}'
+
