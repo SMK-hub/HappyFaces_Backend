@@ -14,7 +14,7 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY --from=builder /app/target/Trip-Partner-0.0.1-SNAPSHOT.jar ./app.jar
+COPY --from=builder /app/target/Train-1-0.0.1-SNAPSHOT.jar ./app.jar
 
 EXPOSE 8081
 
