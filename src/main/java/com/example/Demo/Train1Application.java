@@ -27,7 +27,7 @@ public class Train1Application {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-						.allowedOrigins("http://13.235.70.197:3000","http://13.235.70.197:3001")
+						.allowedOrigins("http://3.109.108.225:3000","http://3.109.108.225:3001")
 						.allowedMethods("GET", "POST", "PUT", "DELETE")
 						.allowedHeaders("*");
 			}
